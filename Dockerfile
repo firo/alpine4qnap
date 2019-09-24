@@ -8,6 +8,6 @@ RUN apk --no-cache --no-progress upgrade
 RUN apk --no-cache --no-progress add bash 
 RUN apk --no-cache --no-progress add curl
 
-# EXPOSE 80
+EXPOSE 80
 
 VOLUME ["/etc/", "/var/lib/"]
