@@ -7,7 +7,7 @@ ADD qemu-arm-static /usr/bin
 RUN apk --no-cache --no-progress upgrade
 RUN apk --no-cache --no-progress add bash 
 RUN apk --no-cache --no-progress add curl
-
+RUN apk --no-cache --no-progress add nodejs npm
 EXPOSE 80
 
 VOLUME ["/etc/", "/var/lib/"]
